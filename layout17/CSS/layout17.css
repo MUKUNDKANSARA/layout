@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-color: aqua;
+} */
+.main{
+    width: 100%;
+    height: 600px;
+    background-color: aqua;
+    /* clear: both; */
+    /* border: 2px solid red; */
+    position: relative;
+    z-index: 0;
+    
+}
+.navbar{
+    background-color: antiquewhite;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
+.left{
+    width: 36%;
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+.right{
+    margin: 17px 20px;
+    float: right;
+    width: 60%;
+    /* border: 2px solid red; */
+}
+.li{
+    display: inline-block;
+    padding: 6px 23px;
+    list-style-type: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    
+}
+.right a{
+    text-decoration: none;
+    color: #19165e;
+}
+.right a:hover{
+    color: green;
+    border-bottom: solid;
+    border-bottom-color: green;
+}
+.h1{
+        /* display: inline; */
+        float: right;
+        /* width: 50%; */
+        padding: 14px 35px;
+        color: #bbbbbb;
+        font-weight: 100;
+}
+.h1 span{
+    color:#19165e ;
+    font-weight: bold;
+}
+.img{
+    float: left;
+    /* border: 2px solid; */
+    padding: 7px 35px;
+}
+.text{
+    position: absolute;
+    top: 32%;
+    left: 13%;
+    color: white;
+}
+.text p{
+    font-size: 32px;
+}
+.h2{
+    font-size: 60px;
+    background-color: #33334e;
+    padding: 6px 10px;
+    opacity: 0.8;
+    margin: 5px;
+}
+
+.btn{
+    background-color: aliceblue;
+    padding: 12px 13px;
+    border: none;
+    border-radius: 2px;
+    border-left-style: solid;
+    border-left-color: teal;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.text button:hover{
+    filter: drop-shadow(2px 2px 4px teal);
+}
+.sub{
+    
+    width: 89%;
+    height: 250px;
+    /* border: 2px solid red; */
+    margin: -48px 4%;
+    padding-left: 37px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border-radius: 4px;
+}
+.subdiv{
+    width: 23%;
+    float: left;
+    position: relative;
+    margin: 25px 5px;
+    /* margin: 5px; */
+    height: 200px;
+    /* border: 2px solid red; */
+    background-color: antiquewhite;
+    border-radius: 4px;
+}
+
+.img1{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 18%;
+    left: 4%;
+}
+.h3{
+    position: absolute;
+    top: 18%;
+    right: 4%;
+    font-size: 25px;
+    color: #19165e;
+}
+.subdiv span{
+    color: #bbbbbb;
+}
